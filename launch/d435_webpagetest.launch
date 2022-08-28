@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find roswww)/launch/roswww.launch"/>
+  <node name="web_video_server" pkg="web_video_server" type="web_video_server"/>
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch"/>
+</launch>

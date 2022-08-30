@@ -50,6 +50,8 @@
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
   <depend>roswww</depend>
+  <depend>web_video_server</depend>
+  <depend>rosbridge_server</depend>
   <depend>realsense2_camera</depend>
 
 
